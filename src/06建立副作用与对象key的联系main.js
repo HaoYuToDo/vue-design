@@ -1,7 +1,7 @@
 /*
  * @Author: yhy
  * @Date: 2022-03-13 10:23:29
- * @LastEditTime: 2022-03-13 11:30:18
+ * @LastEditTime: 2022-03-13 11:32:44
  * @LastEditors: yhy
  * @Description:
  */
@@ -80,4 +80,5 @@ effect(() => {
 
 setTimeout(() => {
   obj.text = "vue3";
+  // obj.noExist = "vue3";
 }, 1000);
