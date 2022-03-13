@@ -1,7 +1,7 @@
 /*
  * @Author: yhy
  * @Date: 2022-03-13 00:41:49
- * @LastEditTime: 2022-03-13 01:48:55
+ * @LastEditTime: 2022-03-13 10:29:51
  * @LastEditors: yhy
  * @Description:
  */
@@ -58,6 +58,7 @@ let mountElement = (vnode, container) => {
 
 // 组件
 let mountComponent = (vnode, container) => {
+  // 调用对象里的方法返回虚拟dom
   let subtree = vnode.tag.render();
   renderer(subtree, container);
 };
